@@ -4,15 +4,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
-// routes/web.php
+})->name('inicio');
 
 Route::get('/habilidades', function () {
     return view('secciones.habilidades');
 })->name('habilidades');
-
-
-
 
 Route::get('/proyectos', function () {
     return view('secciones.proyectos');
@@ -21,11 +17,6 @@ Route::get('/proyectos', function () {
 Route::get('/contacto', function () {
     return view('secciones.contacto');
 })->name('contacto');
-
-Route::get('/', function () {
-    return view('welcome');
-})->name('inicio');
-
 
 Route::get('/about', function () {
     return view('secciones.about');
