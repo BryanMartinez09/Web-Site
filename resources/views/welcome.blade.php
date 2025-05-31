@@ -1,4 +1,4 @@
-@extends('Layout.app')
+@extends('layout.app')
 
 @section('content')
 <section class="min-h-[calc(100vh-3rem)] relative bg-[#0f172a] text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-20 pt-20 pb-10 gap-10 overflow-hidden">
