@@ -12,4 +12,4 @@ php artisan route:cache
 php artisan view:cache
 
 echo "🌐 Iniciando servidor en Railway..."
-php artisan serve --host=0.0.0.0 --port=8080
+exec php artisan serve --host=0.0.0.0 --port=8080
